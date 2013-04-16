@@ -2,7 +2,9 @@ import math
 
 def backTracking(initStep, reducParam, objectiveFunc, pk, derivObjFunc, currentGuess,u1 = 0.0001):
     step = initStep
-    while (objectiveFunc(currentGuess + initStep*reducParam) > (objectiveFunc(currentGuess)+(u1*pk*derivObjFunc(currentGuess)*step))):
+    while (objectiveFunc(currentGuess + step*reducParam) > (objectiveFunc(currentGuess)+(u1*pk*derivObjFunc(currentGuess)*step))):
+        print (objectiveFunc(currentGuess + initStep*reducParam))
+        print ((objectiveFunc(currentGuess)+(u1*pk*derivObjFunc(currentGuess)*step)))
         step = step*reducParam
     return step
 
