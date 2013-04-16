@@ -13,7 +13,7 @@ def lineSearch(initGuess, objectiveFunc, derivObjFunc, stepFunc, convergence, in
     currentGuess = initGuess
     while (delta > convergence):
         print currentGuess
-        pk = (-derivObjFunc(currentGuess))/(derivObjFunc(currentGuess))
+        pk = (-derivObjFunc(currentGuess))/(math.fabs(derivObjFunc(currentGuess)))
         step = stepFunc(initStep, reducParam, objectiveFunc, pk, derivObjFunc, currentGuess)
         dummy = currentGuess
         currentGuess = currentGuess + (step*pk)
