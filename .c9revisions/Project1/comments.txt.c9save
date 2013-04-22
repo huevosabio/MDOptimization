@@ -1,0 +1,38 @@
+{"ts":1366616769602,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1366616769668,"patch":[[{"diffs":[[1,"Olk"]],"start1":0,"start2":0,"length1":0,"length2":3}]],"length":3,"saved":false}
+{"ts":1366616772110,"patch":[[{"diffs":[[0,"O"],[-1,"l"],[0,"k"],[1,", "]],"start1":0,"start2":0,"length1":3,"length2":4}]],"length":4,"saved":false}
+{"ts":1366616772509,"patch":[[{"diffs":[[0,"O"],[-1,"k, "]],"start1":0,"start2":0,"length1":4,"length2":1}]],"length":1,"saved":false}
+{"ts":1366616773454,"patch":[[{"diffs":[[-1,"O"]],"start1":0,"start2":0,"length1":1,"length2":0}]],"length":0,"saved":false}
+{"ts":1366616778277,"patch":[[{"diffs":[[1,"Function Evaluations:\n"]],"start1":0,"start2":0,"length1":0,"length2":22}]],"length":22,"saved":false}
+{"ts":1366616779428,"patch":[[{"diffs":[[0,"ations:\n"],[1,"    F"]],"start1":14,"start2":14,"length1":8,"length2":13}]],"length":27,"saved":false}
+{"ts":1366616785224,"patch":[[{"diffs":[[0,"s:\n    F"],[1,"unction evaluations are counted a"]],"start1":19,"start2":19,"length1":8,"length2":41}]],"length":60,"saved":false}
+{"ts":1366616786836,"patch":[[{"diffs":[[0,"ounted a"],[1,"s once "]],"start1":52,"start2":52,"length1":8,"length2":15}]],"length":67,"saved":false}
+{"ts":1366616789208,"patch":[[{"diffs":[[0,"as once "],[1,"in every "]],"start1":59,"start2":59,"length1":8,"length2":17}]],"length":76,"saved":false}
+{"ts":1366616793419,"patch":[[{"diffs":[[0,"n every "],[1,"iteration of potential x"]],"start1":68,"start2":68,"length1":8,"length2":32}]],"length":100,"saved":false}
+{"ts":1366616795241,"patch":[[{"diffs":[[0,"ential x"],[1,". "]],"start1":92,"start2":92,"length1":8,"length2":10}]],"length":102,"saved":false}
+{"ts":1366616796983,"patch":[[{"diffs":[[0,"ntial x."],[-1," "],[1,"\n    Wh"]],"start1":93,"start2":93,"length1":9,"length2":15}]],"length":108,"saved":false}
+{"ts":1366616798969,"patch":[[{"diffs":[[0,".\n    Wh"],[1,"ether it is"]],"start1":100,"start2":100,"length1":8,"length2":19}]],"length":119,"saved":false}
+{"ts":1366616800605,"patch":[[{"diffs":[[0,"er it is"],[1," "]],"start1":111,"start2":111,"length1":8,"length2":9}]],"length":120,"saved":false}
+{"ts":1366616811741,"patch":[[{"diffs":[[0,"   W"],[-1,"hether it is "]],"start1":103,"start2":103,"length1":17,"length2":4}]],"length":107,"saved":false}
+{"ts":1366616813194,"patch":[[{"diffs":[[0,"    "],[-1,"W"]],"start1":102,"start2":102,"length1":5,"length2":4}]],"length":106,"saved":false}
+{"ts":1366616824409,"patch":[[{"diffs":[[0,"tial x.\n    "],[1,"This "]],"start1":94,"start2":94,"length1":12,"length2":17}]],"length":111,"saved":false}
+{"ts":1366616827423,"patch":[[{"diffs":[[0,"    "],[-1,"This "],[1,"An"]],"start1":102,"start2":102,"length1":9,"length2":6}]],"length":108,"saved":false}
+{"ts":1366616829797,"patch":[[{"diffs":[[0,".\n    An"],[1," evaluation "]],"start1":100,"start2":100,"length1":8,"length2":20}]],"length":120,"saved":false}
+{"ts":1366616834414,"patch":[[{"diffs":[[0," evaluation "],[1,"counts as both, its "]],"start1":108,"start2":108,"length1":12,"length2":32}]],"length":140,"saved":false}
+{"ts":1366616838950,"patch":[[{"diffs":[[0,"th, its "],[1,"function evaluation an"]],"start1":132,"start2":132,"length1":8,"length2":30}]],"length":162,"saved":false}
+{"ts":1366616840144,"patch":[[{"diffs":[[0,"ation an"],[1,"d r"]],"start1":154,"start2":154,"length1":8,"length2":11}]],"length":165,"saved":false}
+{"ts":1366616844250,"patch":[[{"diffs":[[0,"ion and "],[-1,"r"],[1,"derivative evaluation.\n    "]],"start1":156,"start2":156,"length1":9,"length2":35}]],"length":191,"saved":false}
+{"ts":1366616848518,"patch":[[{"diffs":[[0,"uation.\n    "],[1,"Evaluation at the level of "]],"start1":179,"start2":179,"length1":12,"length2":39}]],"length":218,"saved":false}
+{"ts":1366616858123,"patch":[[{"diffs":[[0,"he l"],[-1,"evel of "],[1,"ine-search level are added to those in"]],"start1":206,"start2":206,"length1":12,"length2":42}]],"length":248,"saved":false}
+{"ts":1366616860297,"patch":[[{"diffs":[[0," to those in"],[1," the step"]],"start1":236,"start2":236,"length1":12,"length2":21}]],"length":257,"saved":false}
+{"ts":1366616865534,"patch":[[{"diffs":[[0,"ose "],[-1,"in"],[1,"that happen at"],[0," the ste"],[-1,"p"]],"start1":242,"start2":242,"length1":15,"length2":26}]],"length":268,"saved":false}
+{"ts":1366616868432,"patch":[[{"diffs":[[0," the ste"],[1,"p function.\n    "]],"start1":260,"start2":260,"length1":8,"length2":24}]],"length":284,"saved":false}
+{"ts":1366616869429,"patch":[[{"diffs":[[0,"p function.\n"],[-1,"    "]],"start1":268,"start2":268,"length1":16,"length2":12}]],"length":280,"saved":false}
+{"ts":1366617421824,"patch":[[{"diffs":[[0,"p function.\n"],[1,"\nRate o"]],"start1":268,"start2":268,"length1":12,"length2":19}]],"length":287,"saved":false}
+{"ts":1366617485183,"patch":[[{"diffs":[[0,"\n\nRate o"],[1,"f Convergence"]],"start1":279,"start2":279,"length1":8,"length2":21}]],"length":300,"saved":false}
+{"ts":1366617487435,"patch":[[{"diffs":[[0,"vergence"],[1,":\n    "]],"start1":292,"start2":292,"length1":8,"length2":14}]],"length":306,"saved":false}
+{"ts":1366617704243,"patch":[[{"diffs":[[0,"rgence:\n    "],[1,"Plot "]],"start1":294,"start2":294,"length1":12,"length2":17}]],"length":311,"saved":false}
+{"ts":1366617719031,"patch":[[{"diffs":[[0,"   Plot "],[1,"absolute delta and gradient agains k"]],"start1":303,"start2":303,"length1":8,"length2":44}]],"length":347,"saved":false}
+{"ts":1366617719414,"patch":[[{"diffs":[[0,"agains k"],[1,"\n    "]],"start1":339,"start2":339,"length1":8,"length2":13}]],"length":352,"saved":false}
+{"ts":1366617720860,"patch":[[{"diffs":[[0,"gains k\n"],[-1,"    "],[1,"\n"]],"start1":340,"start2":340,"length1":12,"length2":9}]],"length":349,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1366620245353,"patch":[[{"diffs":[[-1,"Function Evaluations:\n    Function evaluations are counted as once in every iteration of potential x.\n    An evaluation counts as both, its function evaluation and derivative evaluation.\n    Evaluation at the line-search level are added to those that happen at the step function.\n\nRate of Convergence:\n    Plot absolute delta and gradient agains k\n\n"]],"start1":0,"start2":0,"length1":349,"length2":0}]],"length":0,"saved":false}

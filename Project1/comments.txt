@@ -1,0 +1,21 @@
+Gamma = 1
+steps = 2
+funcEvals = 26
+optimum = 1
+value = -0
+
+
+Gamma = 10000
+steps = 2
+funcEvals = 78
+optimum = 0
+value = 0
+
+
+Gamma = 10
+steps = 2
+funcEvals = 58
+optimum = 0
+value = 0
+
+

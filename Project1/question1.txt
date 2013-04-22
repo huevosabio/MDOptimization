@@ -1,0 +1,47 @@
+Backtrack LineSearch: 
+Gamma = 0.500000
+steps = 2
+funcEvals = 26
+optimum = 1.000000
+value = -0.500000
+
+
+Gamma = 10000
+steps = 2
+funcEvals = 78
+optimum = 0.000122
+value = 0.000027
+
+
+Gamma = 10
+steps = 2
+funcEvals = 58
+optimum = 0.125000
+value = 0.031250
+
+
+
+
+
+Newton's method: 
+Gamma = 0.500000
+steps = 2
+funcEvals = 3
+optimum = 1.000000
+value = -0.500000
+
+
+Gamma = 10000
+steps = 2
+funcEvals = 3
+optimum = 0.000050
+value = -0.000025
+
+
+Gamma = 10
+steps = 2
+funcEvals = 3
+optimum = 0.050000
+value = -0.025000
+
+
