@@ -5,10 +5,18 @@ import math
 def backTracking(initStep, reducParam, objectiveFunc, pk, derivObjFunc, currentGuess,u1 = 0.0001):
     step = initStep
     funcEvals = 0
+    #print "this is my pk"
+    #print pk
+    #print "this is my thing to beat"
+    #print (objectiveFunc(currentGuess)+(u1*pk*derivObjFunc(currentGuess)*step))
+    #print "and this is what I have"
+    #print objectiveFunc(currentGuess + step*reducParam)
     while (objectiveFunc(currentGuess + step*reducParam) > (objectiveFunc(currentGuess)+(u1*pk*derivObjFunc(currentGuess)*step))):
         #print (objectiveFunc(currentGuess + initStep*reducParam))
         #print ((objectiveFunc(currentGuess)+(u1*pk*derivObjFunc(currentGuess)*step)))
         step = step*reducParam
+        #print "Step within function:"
+        #print step
         funcEvals += 1
     return step, funcEvals
 
@@ -22,6 +30,7 @@ def lineSearch(initGuess, objectiveFunc, derivObjFunc, stepFunc, convergence, in
     currentDerivative = derivObjFunc(currentGuess)
     
     while (delta > convergence):
+        #print "current guess:"
         #print currentGuess
         #print delta
 
@@ -31,6 +40,8 @@ def lineSearch(initGuess, objectiveFunc, derivObjFunc, stepFunc, convergence, in
         #Evaluate step
         pk = (-currentDerivative)/(math.fabs(currentDerivative))
         step, stepEvals = stepFunc(initStep, reducParam, objectiveFunc, pk, derivObjFunc, currentGuess)
+        #print "This is my step:"
+        #print step
         funcEvals = stepEvals + funcEvals
         
         #Update guess
@@ -41,8 +52,11 @@ def lineSearch(initGuess, objectiveFunc, derivObjFunc, stepFunc, convergence, in
         #Evaluate function and save values
         currentEvaluation = objectiveFunc(currentGuess)
         currentDerivative = derivObjFunc(currentGuess)
-        
+        #print "DERIVATIVE: "
+        #print currentDerivative
         k = k +1
+        if k > 9:
+            break
     return currentGuess, objectiveFunc(currentGuess),k, funcEvals
     
 def newtonMethod(initGuess, objectiveFunc, firstDerivative, secondDerivative, convergence):
